@@ -1,0 +1,11 @@
+workflow_id,step,status,duration_seconds,error_message
+WF001,load_inventory,success,1.2,
+WF001,calculate_restock,success,0.8,
+WF002,match_vendor_prices,success,2.4,
+WF003,validate_vendor_file,failed,4.1,Missing SKU
+WF004,generate_description,success,8.5,
+WF005,lookup_order,success,1.1,
+WF006,compare_catalog,failed,33.0,Similarity timeout
+WF007,generate_brief,success,12.2,
+WF008,classify_keywords,success,5.0,
+WF009,rank_employees,success,2.0,
